@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whats_chat_btn_dis">bate-papo no WhatsApp</string>
+    <string name="paste_btn_dis">Colar</string>
+    <string name="number_placeholder">Insira numeros</string>
+    <string name="backspace_dis">remover</string>
+    <string name="copied">Copiada!</string>
+    <string name="paste_valid_number">Não é um número válido! ↓↓↓↓</string>
+    <string name="massage">Mensagem</string>
+    <string name="enter_valid_no">Por favor insira um número válido!</string>
+    <string name="select_msg_line">Selecione seu Mensagem aqui ↓</string>
+    <string name="enter_cc_line">Insira o seu Código do país</string>
+    <string name="add_msg_btn_dis">Adicionar mensagem</string>
+    <string name="copy_request">Por favor, copie um número primeiro!</string>
+    <string name="done">feita</string>
+</resources>

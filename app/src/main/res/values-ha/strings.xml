@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whats_chat_btn_dis">WhatsApp chat</string>
+    <string name="paste_btn_dis">Manna</string>
+    <string name="number_placeholder">Shigar da Lamba</string>
+    <string name="backspace_dis">Cire</string>
+    <string name="copy_request">Da fatan za a fara kwafi lamba!</string>
+    <string name="copied">Kwafi!</string>
+    <string name="paste_valid_number">Ba lamba mai aiki ba! ↓↓↓↓</string>
+    <string name="massage">Sako</string>
+    <string name="enter_valid_no">Da fatan za a shigar da ingantacciyar lamba!</string>
+    <string name="select_msg_line">Zaɓi naku Sako a nan ↓</string>
+    <string name="enter_cc_line">Shigar da naku lambar ƙasa</string>
+    <string name="add_msg_btn_dis">Ƙara sako</string>
+    <string name="done">Anyi</string>
+</resources>

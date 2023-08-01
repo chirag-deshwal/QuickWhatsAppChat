@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Direct Chat</string>
+    <string name="whats_chat_btn_dis">Whatsapp chat</string>
+    <string name="paste_btn_dis">Paste</string>
+    <string name="placeholder_country_code" translatable="false">+091</string>
+    <string name="number_placeholder">Enter Number</string>
+    <string name="backspace_dis">Remove</string>
+    <string name="copy_request">Please copy a number first!</string>
+    <string name="copied">Copied!</string>
+    <string name="paste_valid_number">"Not a valid number! ↓↓↓↓ \n\n "</string>
+    <string name="massage">Message</string>
+    <string name="massage_short" translatable="false">Msg</string>
+    <string name="enter_valid_no">Please enter a valid number!</string>
+    <string name="select_msg_line">Select your \nMessage here ↓</string>
+    <string name="enter_cc_line">Enter your \ncountry code</string>
+    <string name="add_msg_btn_dis">Add message</string>
+    <string name="_000" translatable="false">000</string>
+    <string name="done">Done</string>
+
+</resources>

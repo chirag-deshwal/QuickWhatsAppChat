@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:elevation="1dp"
+    android:background="@drawable/tw_radius_bg"
+    android:padding="18dp">
+
+
+    <TextView
+        android:id="@+id/dial0"
+        style="@style/dailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="30dp"
+        android:text="0"
+        tools:ignore="HardcodedText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/dial8"
+        app:layout_constraintStart_toStartOf="@+id/dial8" />
+
+
+    <TextView
+        android:id="@+id/dial1"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/dial2"
+        app:layout_constraintEnd_toStartOf="@+id/dial2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dial2"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial2"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/dial5"
+        app:layout_constraintEnd_toStartOf="@+id/dial3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dial1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial3"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+   
+        android:text="3"
+        tools:ignore="HardcodedText"
+        app:layout_constraintBottom_toBottomOf="@+id/dial2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dial2"
+        app:layout_constraintTop_toTopOf="@+id/dial2" />
+
+    <TextView
+        android:id="@+id/dial4"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+   
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/dial5"
+        app:layout_constraintEnd_toStartOf="@+id/dial5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dial5"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial5"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+   
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@+id/dial8"
+        app:layout_constraintEnd_toStartOf="@+id/dial6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dial4"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial6"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="@+id/dial5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dial5"
+        app:layout_constraintTop_toTopOf="@+id/dial5"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial7"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="@+id/dial8"
+        app:layout_constraintEnd_toStartOf="@+id/dial8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dial8"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial8"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="8"
+        app:layout_constraintBottom_toTopOf="@+id/dial0"
+        app:layout_constraintEnd_toStartOf="@+id/dial9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dial7"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dial9"
+        style="@style/dailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+   
+        android:text="9"
+        app:layout_constraintBottom_toBottomOf="@+id/dial8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dial8"
+        app:layout_constraintTop_toTopOf="@+id/dial8"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/backspace_btn"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/backspace_dis"
+        android:scaleType="center"
+        android:src="@drawable/ic_round_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="@+id/dial0"
+        app:layout_constraintEnd_toEndOf="@+id/dial9"
+        app:layout_constraintStart_toEndOf="@+id/dial8"
+        app:layout_constraintTop_toTopOf="@+id/dial0" />
+
+    <ImageView
+        android:id="@+id/paste_btn"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:scaleType="center"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/paste_btn_dis"
+        android:src="@drawable/ic_round_content_paste_24"
+        app:layout_constraintBottom_toBottomOf="@+id/dial0"
+        app:layout_constraintEnd_toStartOf="@+id/dial8"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/dial7"
+        app:layout_constraintTop_toTopOf="@+id/dial0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

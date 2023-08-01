@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="whats_chat_btn_dis">व्हाट्सएप चैट</string>
+    <string name="paste_btn_dis">पेस्ट</string>
+    <string name="number_placeholder">नंबर डालें</string>
+    <string name="backspace_dis">हटाना</string>
+    <string name="copy_request">कृपया पहले एक नंबर कॉपी करें!</string>
+    <string name="copied">कॉपी किया गया!</string>
+    <string name="paste_valid_number">मान्य संख्या नहीं है!↓↓↓↓</string>
+    <string name="massage">मैसेज</string>
+    <string name="enter_valid_no">कृपया वैध संख्या दर्ज करें!</string>
+    <string name="select_msg_line">यहां अपना संदेश चुनें ↓</string>
+    <string name="enter_cc_line">अपना कंट्री कोड भरें</string>
+    <string name="add_msg_btn_dis">संदेश डालो</string>
+    <string name="done">पूर्ण</string>
+</resources>
